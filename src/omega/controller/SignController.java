@@ -13,7 +13,7 @@ public class SignController {
 
 	@RequestMapping(path="/login", method=RequestMethod.GET)
 	public String loginGetHandle(Model model) {
-		model.addAttribute("title", "로그인 - Hunger");
+		model.addAttribute("title", "로그인 - Hunters");
 		model.addAttribute("section", "/WEB-INF/view/account/login.jsp");
 		return "t_dynamic";
 	}
