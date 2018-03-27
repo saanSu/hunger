@@ -10,7 +10,7 @@
 	</definition>
 	
 	<definition name="t_dynamic" extends="t_default">
-		<put-attribute name="title" expression="${title}"/>
+		<put-attribute name="title" expression="${title} - Hunters"/>
 		<put-attribute name="nav" value="/WEB-INF/view/nav.jsp"/>
 		<put-attribute name="section" expression="${section}"/>
 		<put-attribute name="footer" value="/WEB-INF/view/footer.jsp"/>

@@ -11,8 +11,8 @@
 	
 	<context:component-scan base-package="omega"/>
 	
-	<mongo:mongo-client host="13.125.143.220" port="27017" id="mongo"/>
-	<mongo:db-factory dbname="root" mongo-ref="mongo" id="dbFactory"/>
+	<mongo:mongo-client host="13.125.143.220" port="51249" id="mongo"/>
+	<mongo:db-factory dbname="hunters" mongo-ref="mongo" id="dbFactory"/>
 	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
 		<constructor-arg name="mongoDbFactory" ref="dbFactory"/>
 	</bean>
