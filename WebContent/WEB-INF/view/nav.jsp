@@ -8,7 +8,7 @@
 		style="width: 100%; font-size: 22px">Close Menu</a>
 	<div class="w3-container">
 		<h3 class="w3-padding-64">
-			<a href="/" style="text-decoration: none;"><b>Hunters Project</b><br /> <small>/ SpringMVC &amp; MongoDB</small></a>
+			<a href="/" style="text-decoration: none;"><b>Saansoo Project</b><br /> <small>/ SpringMVC &amp; MongoDB</small></a>
 		</h3>
 	</div>
 	<div class="w3-bar-block" style="font-size: smaller;">
@@ -33,7 +33,7 @@
 	class="w3-container w3-top w3-hide-large w3-blue-gray w3-xlarge w3-padding">
 	<a href="javascript:void(0)"
 		class="w3-button w3-blue-gray w3-margin-right" onclick="w3_open()">☰</a>
-	<a href="/" style="text-decoration: none;"><b>Hunters </b> <small>Project</small>.</a>
+	<a href="/" style="text-decoration: none;"><b>Saansoo </b> <small>Project</small>.</a>
 </header>
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()"

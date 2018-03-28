@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <div class="w3-container" id="contact" style="margin-top: 75px">
-	<h1 class="w3-xxlarge w3-text">
+	<h2 class="w3-xxlarge w3-text">
 		<b>로그인.</b>
-	</h1>
+	</h2>
 	<hr style="width: 70px; border: 5px solid #607d8b" class="w3-round">
 	<p>
 		별도의 신청절차는 없습니다. ht0000 ~ ht9999 의 아이디를 사용하시면 되고, 사용중이 아니라면 초기 비밀번호는

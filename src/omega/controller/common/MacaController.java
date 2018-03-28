@@ -1,4 +1,4 @@
-package omega.controller;
+package omega.controller.common;
 
 import javax.servlet.http.HttpSession;
 

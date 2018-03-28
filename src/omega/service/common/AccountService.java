@@ -1,4 +1,4 @@
-package omega.service;
+package omega.service.common;
 
 import java.util.Map;
 

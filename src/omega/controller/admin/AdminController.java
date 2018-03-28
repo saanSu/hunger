@@ -11,4 +11,6 @@ public class AdminController {
 	public String configGetHandle() {
 		return "t_default";
 	}
+	
+	
 }

@@ -3,14 +3,14 @@
 	PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 	<definition name="t_default" template="/WEB-INF/view/template.jsp">
-		<put-attribute name="title" value="Hunters"/>
+		<put-attribute name="title" value="SaanSoo"/>
 		<put-attribute name="nav" value="/WEB-INF/view/nav.jsp"/>
 		<put-attribute name="section" value="/WEB-INF/view/main.jsp"/>
 		<put-attribute name="footer" value="/WEB-INF/view/footer.jsp"/>
 	</definition>
 	
 	<definition name="t_dynamic" extends="t_default">
-		<put-attribute name="title" expression="${title} - Hunters"/>
+		<put-attribute name="title" expression="${title} - SaanSoo"/>
 		<put-attribute name="nav" value="/WEB-INF/view/nav.jsp"/>
 		<put-attribute name="section" expression="${section}"/>
 		<put-attribute name="footer" value="/WEB-INF/view/footer.jsp"/>

@@ -1,4 +1,4 @@
-package omega.controller;
+package omega.controller.common;
 
 import java.util.Map;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import omega.service.AccountService;
+import omega.service.common.AccountService;
 
 @Controller
 public class SignController {

@@ -37,7 +37,7 @@ body {
 	<!-- Sidebar/menu -->
 	<tiles:insertAttribute name="nav" />
 	<!-- !PAGE CONTENT! -->
-	<div class="w3-main" style="margin-left: 340px; margin-right: 40px; min-height: 580px;">
+	<div class="w3-main" style="margin-left: 340px; margin-right: 40px; min-height: 490px;">
 		<tiles:insertAttribute name="section"/>
 	</div>
 
