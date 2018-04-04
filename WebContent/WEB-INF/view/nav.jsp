@@ -8,13 +8,18 @@
 		style="width: 100%; font-size: 22px">Close Menu</a>
 	<div class="w3-container">
 		<h3 class="w3-padding-64">
-			<a href="/" style="text-decoration: none;"><b>Saansoo Project</b><br /> <small>/ SpringMVC &amp; MongoDB</small></a>
+			<a href="/" style="text-decoration: none;"><b>Saansoo Project</b><br />
+				<small>/ SpringMVC &amp; MongoDB</small></a>
 		</h3>
 	</div>
 	<div class="w3-bar-block" style="font-size: smaller;">
 		<a href="/login" onclick="w3_close()"
 			class="w3-bar-item w3-button w3-hover-white"><i
-			class="fa fa-sign-in"> 로그인</i></a>
+			class="fa fa-toggle-off"> 로그인</i></a> <a href="/monhun/accessory"
+			onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><i
+			class="fa fa-search"> 몬헌 - 장식주</i></a> <a href="/monhun/skill"
+			onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"><i
+			class="fa fa-search"> 몬헌 - 스킬</i></a>
 		<!--   <a href="/" onclick="w3_close()"
 			class="w3-bar-item w3-button w3-hover-white">Showcase</a> <a href="#services" onclick="w3_close()"
 			class="w3-bar-item w3-button w3-hover-white">Services</a> <a
@@ -22,7 +27,7 @@
 			class="w3-bar-item w3-button w3-hover-white">Designers</a> <a
 			href="#packages" onclick="w3_close()"
 			class="w3-bar-item w3-button w3-hover-white">Packages</a> -->
-		<hr/>
+		<hr />
 		<a href="/admin/config" onclick="w3_close()"
 			class="w3-bar-item w3-button w3-hover-white"><i class="fa fa-cog">
 				설정</i></a>

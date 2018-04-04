@@ -7,8 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding"
 	rel="stylesheet">
 <script
@@ -43,7 +42,17 @@ body {
 
 	<!-- W3.CSS Container -->
 	<tiles:insertAttribute name="footer" />
-
+	<script>
+		function accordian(id) {
+			var has = $("#"+id).hasClass("w3-show");
+			console.log(has);
+			if(has){
+				$("#"+id).removeClass("w3-show");
+			}else {
+				$("#"+id).addClass("w3-show");
+			}
+		}
+	</script>
 </body>
 </html>
 

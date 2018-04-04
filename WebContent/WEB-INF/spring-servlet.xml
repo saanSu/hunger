@@ -12,8 +12,8 @@
 	<context:component-scan base-package="omega"/>
 	
 	<mongo:mongo-client host="13.125.143.220" port="51249" id="mongo"/>
-	<mongo:db-factory dbname="hunters" mongo-ref="mongo" id="dbFactory"/>
-	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+	<mongo:db-factory dbname="saansoo" mongo-ref="mongo" id="dbFactory"/>
+	<bean id="template" class="org.springframework.data.mongodb.core.MongoTemplate">
 		<constructor-arg name="mongoDbFactory" ref="dbFactory"/>
 	</bean>
 	
@@ -23,6 +23,7 @@
 		<property name="prefix" value="/WEB-INF/view/"/>
 	</bean>
 	<bean class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
+		
 		<property name="order" value="1"/>
 	</bean>
 	<bean class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
